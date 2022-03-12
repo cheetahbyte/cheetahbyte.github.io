@@ -1,0 +1,302 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap");
+
+body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.accent {
+  color: #ffc107;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  background: url("/assets/images/bg2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a.name {
+  width: fit-content;
+  display: block;
+}
+
+a.name:hover h2.name {
+  color: #ffc107;
+}
+
+a.name:hover span.accent {
+  color: #fff;
+}
+
+h2.name {
+  margin-left: 20px;
+  margin-top: 20px;
+  font-family: "Fredoka", sans-serif;
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 500;
+}
+
+div.menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 20px;
+  margin-top: 30px;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+div.menu:hover {
+  cursor: pointer;
+  color: #ffc107;
+}
+
+div.menu a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-transform: lowercase;
+  color: rgb(153, 153, 153);
+}
+div.menu a:active {
+  color: #ffc107;
+}
+
+div.menu a:hover {
+  color: #fff;
+}
+
+div.menu:hover svg {
+  stroke: #ffc107;
+}
+
+div.menu p {
+  margin-right: 20px;
+  user-select: none;
+  -moz-user-select: none;
+}
+
+.sub {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+
+.grey {
+  color: rgb(153, 153, 153);
+}
+
+.main-content {
+  position: relative;
+  top: 40%;
+  left: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.main-content h1 {
+  margin-top: 2vh;
+  text-align: left;
+  width: 30vw;
+  font-family: "Fredoka", sans-serif;
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: 500;
+}
+
+.main-content .buttons {
+  display: flex;
+  flex-direction: row;
+  width: 30vw;
+  align-items: flex-end;
+  margin-top: 5vh;
+}
+
+.main-content .buttons button {
+  width: 8vw;
+  height: 3vw;
+  border: 2px solid rgb(153, 153, 153);
+  color: rgb(153, 153, 153);
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  background: none;
+}
+
+.main-content .buttons button:nth-child(1) {
+  margin-right: 100px;
+}
+.main-content .buttons button:hover {
+  cursor: pointer;
+  color: #ffc107;
+  border-color: #fff;
+}
+
+.chevron {
+  position: relative;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30px;
+  height: 30px;
+  stroke: #fff !important;
+}
+
+.projects {
+  background-image: url("/assets/images/bg3.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.projects h2 {
+  margin-top: 5vw;
+  margin-left: 10vw;
+  font-family: "Fredoka", sans-serif;
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 500;
+}
+
+.projects h3 {
+  margin-left: 10vw;
+  margin-top: 1.5vh;
+  text-transform: lowercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+
+.projects .projs {
+  display: flex;
+  flex-direction: row;
+  width: 70vw;
+  margin-top: 2vh;
+  margin-left: 10vw;
+  flex-wrap: wrap;
+}
+
+.projects .projs .project {
+  border-radius: 15px;
+  background-color: rgba(53, 53, 53, 0.8);
+  margin-right: 2vw;
+  margin-top: 5vh;
+}
+
+.projects .projs .project:last-child {
+  margin-right: 0;
+}
+
+.projects .projs .project img {
+  width: 20vw;
+  height: 10vw;
+}
+.projects .projs .project .content {
+  height: 5vw;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.projects .projs .project .content a {
+  margin-top: 1vw;
+  margin-left: 1vw;
+  font-family: "Fredoka", sans-serif;
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 500;
+  text-transform: lowercase;
+  z-index: 1;
+  text-decoration: none;
+}
+
+.projects .projs .project .content a:hover {
+  cursor: pointer;
+  color: #ffc107;
+}
+
+.projects .projs .project .content a:hover::after {
+  color: #fff;
+}
+
+.projects .projs .project .content a::after {
+  content: ".";
+  color: #ffc107;
+}
+
+
+
+.projects .projs .project .content p {
+  margin-left: 1vw;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  z-index: 1;
+  text-transform: uppercase;
+}
+
+
+/* skill section*/
+.skills {
+  background-image: url("/assets/images/bg1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.skills h2 {
+  margin-top: 5vw;
+  margin-left: 10vw;
+  font-family: "Fredoka", sans-serif;
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 500;
+}
+
+.skills h3 {
+  margin-left: 10vw;
+  margin-top: 1.5vh;
+  text-transform: lowercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+
+.skills .skillz .skill {
+  margin-top: 10vh;
+  margin-left: 10vw;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  color: #fff;
+}
