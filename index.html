@@ -1,66 +1,92 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Cheetahbyte</title>
-    <link rel="stylesheet" href="styles/main.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
-    <main class="main">
-      <a class="name" style="text-decoration: none;" href="https://github.com/cheetahbyte"><h2 class="name" >cheetahbyte<span class="accent" style="font-weight: 600;">.</span></h2></a>
-      <div class="menu">
-        <a href="/" class="link">home</a>
-        <a href="#projects" class="link">my projects</a>
-        <a href="#skills" class="link">my skills</a>
-        <a href="about" class="link">about me</a>
-        <a href="https://github.com/cheetahbyte" class="link">my github</a>
-      </div>
-      <div class="main-content">
-        <h3 class="sub grey">Welcome to my portfolio</h3>
+
+<head>
+  <title>Cheetahbyte</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/mobile.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <main class="main">
+    <a class="name" style="text-decoration: none;" href="https://github.com/cheetahbyte">
+      <h2 class="name">cheetahbyte<span class="accent" style="font-weight: 600;">.</span></h2>
+    </a>
+    <div class="menu">
+      <a href="/" class="link">home</a>
+      <a href="#projects" class="link">my projects</a>
+      <a href="#skills" class="link">my skills</a>
+      <a href="about" class="link">about me</a>
+      <a href="https://github.com/cheetahbyte" class="link">my github</a>
+    </div>
+    <div class="mobile-menu">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+        style="--darkreader-inline-stroke: currentColor;" data-darkreader-inline-stroke="">
+        <line x1="4" y1="12" x2="20" y2="12"></line>
+        <line x1="4" y1="6" x2="20" y2="6"></line>
+        <line x1="4" y1="18" x2="20" y2="18"></line>
+      </svg>
+    </div>
+    <div class="main-content">
+      <h3 class="sub grey">Welcome to my portfolio</h3>
       <h1>Hey, I'm Leo. I'm a self-taught webdeveloper!</h1>
-      <div class="buttons"><button class="grey" onclick="window.location.href = 'http:\/\/' + window.location.host +'#projects'">my_projects</button><button class="grey" onclick="redir('mail')">contact</button></div>
-      </div>
-    </main>
-    <section class="projects" id="projects">
-      <h2 >MY PROJECTS</h2>
-      <h3 class="grey">take a look at some of my projects</h3>
-      <div class="projs">
-        <div class="project">
-          <img src="https://images.unsplash.com/photo-1519227778781-02fbc3c547a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80" alt="">
-          <div class="content">
-            <a href="https://github.com/cheetahbyte/icebreaker">Icebreaker</a>
-            <p class="grey">Docker managment interface</p>
-          </div>
-        </div>
-        <div class="project">
-          <img src="https://images.unsplash.com/photo-1600463241302-88b0e1a51175?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
-          <div class="content">
-            <a href="https://github.com/cheetahbyte/ermine">Ermine</a>
-            <p class="grey">Webframework in Python</p>
-          </div>
-        </div>
-        <div class="project">
-          <img src="https://images.unsplash.com/photo-1609668106037-60375e9d1238?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHJhZGlzaHxlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60" alt="">
-          <div class="content">
-            <a href="https://github.com/cheetahbyte/radish-router">Radish</a>
-            <p class="grey">Non-Radix Router in Python</p>
-          </div>
-        </div>
-        <div class="project">
-          <img src="https://images.unsplash.com/photo-1599448191905-7bedab8ced59?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="">
-          <div class="content">
-            <a href="https://github.com/cheetahbyte/cucumber">Cucumber</a>
-            <p class="grey">templates of finest taste.</p>
-          </div>
+      <div class="buttons"><button class="grey"
+          onclick="window.location.href = 'http:\/\/' + window.location.host +'#projects'">my_projects</button><button
+          class="grey" onclick="redir('mail')">contact</button></div>
+    </div>
+  </main>
+  <section class="projects" id="projects">
+    <h2>MY PROJECTS</h2>
+    <h3 class="grey">take a look at some of my projects</h3>
+    <div class="projs">
+      <div class="project">
+        <img
+          src="https://images.unsplash.com/photo-1519227778781-02fbc3c547a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+          alt="">
+        <div class="content">
+          <a href="https://github.com/cheetahbyte/icebreaker">Icebreaker</a>
+          <p class="grey">Docker managment interface</p>
         </div>
       </div>
-    </section>
-    <section class="skills" id="skills">
-      <h2>MY SKILLS</h2>
-      <h3 class="grey">take a look at some of my skills</h3>
-      <div class="skillz">
-        <div class="skill">IN PROGRESS</div>
+      <div class="project">
+        <img
+          src="https://images.unsplash.com/photo-1600463241302-88b0e1a51175?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+          alt="">
+        <div class="content">
+          <a href="https://github.com/cheetahbyte/ermine">Ermine</a>
+          <p class="grey">Webframework in Python</p>
+        </div>
       </div>
-    </section>
-    <body>
+      <div class="project">
+        <img
+          src="https://images.unsplash.com/photo-1609668106037-60375e9d1238?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHJhZGlzaHxlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60"
+          alt="">
+        <div class="content">
+          <a href="https://github.com/cheetahbyte/radish-router">Radish</a>
+          <p class="grey">Non-Radix Router in Python</p>
+        </div>
+      </div>
+      <div class="project">
+        <img
+          src="https://images.unsplash.com/photo-1599448191905-7bedab8ced59?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+          alt="">
+        <div class="content">
+          <a href="https://github.com/cheetahbyte/cucumber">Cucumber</a>
+          <p class="grey">templates of finest taste.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="skills" id="skills">
+    <h2>MY SKILLS</h2>
+    <h3 class="grey">take a look at some of my skills</h3>
+    <div class="skillz">
+      <div class="skill">IN PROGRESS</div>
+    </div>
+  </section>
+
+  <body>
+
 </html>

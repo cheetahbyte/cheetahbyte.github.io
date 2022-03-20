@@ -1,0 +1,61 @@
+@media only screen and (max-width: 900px) {
+  .menu {
+    display: none !important;
+  }
+
+  .mobile-menu {
+    display: block !important;
+  }
+
+  .main-content {
+    width: 70vw;
+  }
+
+  .main-content h1 {
+    width: 70vw;
+  }
+
+  .main-content .buttons {
+    width: 70vw;
+  }
+
+  .main-content .buttons button {
+    width: 30vw;
+    height: 10vw;
+    font-size: smaller;
+  }
+
+  .projects {
+      height: unset;
+  }
+
+  .projs {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+  }
+
+  .projs .project {
+    width: 70vw;
+  }
+
+  .projs .project .content{
+    height: 20vw !important;
+    margin-left: 3vw !important;
+  }
+
+  .projs .project img {
+    width: 70vw !important;
+    height: 50vw !important;
+  }
+}
+
+.mobile-menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 20px;
+  margin-top: 30px;
+}
